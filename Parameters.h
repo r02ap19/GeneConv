@@ -46,7 +46,7 @@ public:
 	int mean_read_length; //mean length of reads (sampled from normal distribution)
 	int read_length_SD; //standard deviation in read length (sampled from normal distribution)
 	int min_read; //lower bound for read size.
-	int max_read; //lower bound for read size.
+	int max_read; //upper bound for read size.
 
 	void outPara(string dir); //Parameter output
 };
